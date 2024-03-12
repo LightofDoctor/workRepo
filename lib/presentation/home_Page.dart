@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:proba/process_Screen.dart';
-import 'package:proba/result_Screen.dart';
+import 'package:proba/presentation/process_Screen.dart';
+import 'package:proba/presentation/result_Screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);

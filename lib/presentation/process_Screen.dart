@@ -1,7 +1,9 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:proba/result_Screen.dart';
+import 'package:proba/presentation/result_Screen.dart';
+
+import '../repository/get_api.dart';
 
 class ProcessScreen extends StatefulWidget {
   const ProcessScreen({Key? key}) : super(key: key);
@@ -12,7 +14,9 @@ class ProcessScreen extends StatefulWidget {
 
 class _ProcessScreenState extends State<ProcessScreen> {
   @override
+
   Widget build(BuildContext context) {
+    GetApi().getApi();
     return Scaffold(appBar: AppBar(
       backgroundColor: Colors.blue,
       title: Text('ProcessScreen'),

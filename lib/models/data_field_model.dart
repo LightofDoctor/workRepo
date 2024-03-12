@@ -4,7 +4,8 @@ import 'dart:convert';
 
 import 'package:json_annotation/json_annotation.dart';
 
-import 'other_models.dart';
+import 'get_end_model.dart';
+import 'get_start_model.dart';
 part 'data_field_model.g.dart';
 @JsonSerializable()
 class DataField{
